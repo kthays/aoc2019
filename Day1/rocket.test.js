@@ -1,4 +1,4 @@
-const { GetFuelRequirement } = require('./main.js')
+const { GetFuelRequirement } = require('./rocket.js')
 
 test('Example 1: Mass 12 requires 2 fuel', () => {
     expect(GetFuelRequirement(12)).toBe(2);
